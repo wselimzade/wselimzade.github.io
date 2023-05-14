@@ -344,7 +344,7 @@ input {
   .projects-first,
   .projects-second,
   .projects-third {
-    flex-direction: column;
-    margin-bottom: 0;
+    /* flex-direction: column; */
+    
   }
 }
