@@ -246,7 +246,7 @@ input {
   height: 100%;
 }
 
-.project {
+/* .project {
   position: relative;
 }
 
@@ -271,7 +271,7 @@ input {
 
 .project:hover::before {
   opacity: 0.5;
-}
+} */
 
 .projects-first,
 .projects-second,
