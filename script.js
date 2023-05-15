@@ -11,6 +11,7 @@ const changeTheme = () => {
   }
 };
 themeButton.addEventListener("click", changeTheme);
+themeButton.addEventListener("touchstart", changeTheme);
 
 const cv = document.querySelector(".cv");
 
@@ -23,6 +24,7 @@ const downloadCV = () => {
   link.click();
 };
 cv.addEventListener("click", downloadCV);
+cv.addEventListener("touchstart", downloadCV);
 
 const contact = document.querySelector(".contact");
 
@@ -33,3 +35,4 @@ const sendMail = () => {
   window.location.href = `mailto:${emailAddress}?subject=${emailSubject}&body=${emailBody}`;
 };
 contact.addEventListener("click", sendMail);
+contact.addEventListener("touchstart", sendMail);
