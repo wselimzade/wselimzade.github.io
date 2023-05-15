@@ -1,0 +1,378 @@
+/*? @css-in default olculerini sifirlamaq */
+
+* {
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  html,
+  body,
+  ul,
+  ol {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+  }
+  
+  main {
+    margin-top: 12.8rem;
+    width: 100%;
+    height: auto;
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+  }
+  
+  button {
+    border: none;
+  }
+  
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  input {
+    border: none;
+  }
+  
+  /*? @fonts */
+  
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  :root {
+    font-family: "Poppins", sans-serif;
+    background-color: #E9EBEC;
+  }
+  
+  /*? @container */
+  
+  .container {
+    margin: 0 auto;
+    margin-top: 3.3rem;
+    max-width: 757px;
+    background: #E9EBEC;
+    transition: 1s all ease-in-out;
+  }
+  
+  /* .container-content {
+    width: 100%;
+  } */
+  
+  /*? theme icon */
+  
+  .theme-icon {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E7E7E7;
+    cursor: pointer;
+  }
+  
+  .theme-icon:hover {
+    background-color: #3D3D3D;
+    transition: all 0.5s;
+  }
+  
+  .theme-icon img {
+    width: 3rem;
+  }
+  /*? photo-info */
+  
+  .photo-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6.5rem;
+  }
+  
+  .photo {
+    width: 25rem;
+    height: 20rem;
+    box-shadow: 0px 0px 18px 8px #333d46;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .info {
+    margin-left: 4rem;
+  }
+  
+  .info-name {
+    font-weight: 500;
+    font-size: 4.6rem;
+    color: #3D3D3D;
+  }
+  
+  .info-job {
+    font-weight: 500;
+    font-size: 2.2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    color: #3D3D3D;
+  }
+  
+  .info-sosial {
+    display: flex;
+  }
+  
+  .info-sosial div {
+    width: 3.6rem;
+    height: 3.6rem;
+    /* background-color: red; */
+    margin-right: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .info-sosial i {
+    color: #3D3D3D;
+    font-size: 3rem;
+  }
+  
+  .info-sosial i:hover {
+    color: #ffe071;
+    transition: all 0.5s;
+  }
+  
+  /* @cv-contact */
+  
+  .cv-contact {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cv {
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: #3D3D3D;
+    background-color: #FFFFFF;
+    margin-right: 4rem;
+    padding: 2.4rem 8.1rem;
+    border-radius: 1rem;
+    transition: 0.5s all ease-in-out;
+  }
+  
+  .cv:hover {
+    color: #3d3d3d;
+    background-color: #ffe071;
+    cursor: pointer;
+  }
+  
+  .contact {
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: #3D3D3D;
+    background-color: #FFFFFF;
+    padding: 2.4rem 8.1rem;
+    border-radius: 1rem;
+  }
+  
+  .contact:hover {
+    color: #3d3d3d;
+    background-color: #ffe071;
+    cursor: pointer;
+  }
+  
+  /* @portfolio-skills */
+  
+  .portfolio-skills {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 2rem;
+  }
+  
+  .portfolio {
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: #19191B;
+    margin-right: 4rem;
+    background-color: #FFFFFF;
+    padding: 2.4rem 12.5rem;
+    border-radius: 1rem;
+    margin: 1.8rem auto;
+    cursor: pointer;
+  }
+  
+  .skills {
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: #19191B;
+    background-color: #FFFFFF;
+    padding: 2.4rem 12.5rem;
+    border-radius: 1rem;
+    margin: 1.8rem auto;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #d7d7d7;
+  }
+  
+  /* @projects */
+  
+  .projects {
+    margin-top: 8.5rem;
+    width: 100%;
+  }
+  
+  .projects .project {
+    width: 362px;
+    height: 226px;
+    border-radius: 1.5rem;
+  }
+  
+  .project img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* .project {
+    position: relative;
+  }
+  
+  .project:before {
+    content: "my project";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0c151d;
+    font-size: 4rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffe071;
+    border-radius: 1.5rem;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  
+  .project:hover::before {
+    opacity: 0.5;
+  } */
+  
+  .projects-first,
+  .projects-second,
+  .projects-third {
+    display: flex;
+    margin-bottom: 5rem;
+  }
+  
+  .project-margin {
+    margin-left: 3.2rem;
+    margin-right: 0;
+  }
+  
+  /* @footer */
+  
+  footer {
+    font-weight: 500;
+    font-size: 2.2rem;
+    color: #575757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  
+  /* @responsive  */
+  
+  @media (max-width: 768px) {
+    /* @root */
+    html {
+      font-size: 7px;
+    }
+  
+    /* @container */
+    .container {
+      width: 90%;
+      height: auto;
+    }
+  
+    /* @photo-info */
+  
+    .photo-info {
+      flex-direction: column;
+      margin-top: 3rem;
+    }
+  
+    .info {
+      margin-left: 0;
+      margin-top: 4rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    /* @project */
+  
+    /* .projects-first,
+    .projects-second,
+    .projects-third {
+      flex-direction: column;
+      margin-bottom: 0;
+    } */
+  
+    .projects .project {
+      width: 100%;
+      height: 21rem;
+      margin-bottom: 3rem;
+    }
+  }
+  
+  @media (max-width: 505px) {
+    html {
+      font-size: 5px;
+    }
+  }
+  
+  @media (max-width: 390px) {
+    html {
+      font-size: 4px;
+    }
+    /* .projects-first,
+    .projects-second,
+    .projects-third {
+      flex-direction: column;
+      
+    } */
+  }
+  
