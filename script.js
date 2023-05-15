@@ -28,8 +28,10 @@ const contact = document.querySelector(".contact");
 const sendMail = () => {
   const emailAddress = "wselimzade@mail.ru";
   const emailSubject = "Portfolio Mail";
-  const emailBody = "Jobs";
-  window.location.href = `mailto:${emailAddress}?subject=${emailSubject}&body=${emailBody}`;
+  const emailBody = "Replace this text with the desired email body content";
+  const encodedSubject = encodeURIComponent(emailSubject);
+  const encodedBody = encodeURIComponent(emailBody);
+  window.location.href = `mailto:${emailAddress}?subject=${encodedSubject}&body=${encodedBody}`;
 };
 contact.addEventListener("click", sendMail);
 contact.addEventListener("touchstart", sendMail);
