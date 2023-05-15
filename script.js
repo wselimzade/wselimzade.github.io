@@ -2,7 +2,6 @@
 
 const themeButton = document.querySelector(".theme-icon");
 const link = document.querySelector("link[href='style.css']");
-
 const changeTheme = () => {
   if (link.getAttribute("href") == "style.css") {
     link.setAttribute("href", "night-mode.css");
@@ -14,7 +13,6 @@ themeButton.addEventListener("click", changeTheme);
 themeButton.addEventListener("touchstart", changeTheme);
 
 const cv = document.querySelector(".cv");
-
 const downloadCV = () => {
   const fileUrl = "./MyCV.pdf";
   const fileName = "MyCv.pdf";
@@ -27,7 +25,6 @@ cv.addEventListener("click", downloadCV);
 cv.addEventListener("touchstart", downloadCV);
 
 const contact = document.querySelector(".contact");
-
 const sendMail = () => {
   const emailAddress = "wselimzade@mail.ru";
   const emailSubject = "Portfolio Mail";
