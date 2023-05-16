@@ -297,6 +297,20 @@ input {
   opacity: 0.5;
 }
 
+#catchGame:before {
+  content: "Catch Game";
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0c151d;
+}
+
+#comingSoon:before {
+  content: "coming soon..";
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0c151d;
+}
+
 .projects-first,
 .projects-second,
 .projects-third {
@@ -455,6 +469,14 @@ footer {
     margin-left: 0;
     margin: 0 auto;
     margin-bottom: 3rem;
+  }
+
+  #catchGame:before {
+    font-size: 20px;
+  }
+
+  #comingSoon:before {
+    font-size: 20px;
   }
 }
 
