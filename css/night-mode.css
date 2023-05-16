@@ -62,7 +62,7 @@ input {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   font-family: "Poppins", sans-serif;
-  background-color: #0c151d;
+  background-color: #e9ebec;
 }
 
 /*? @container */
@@ -71,13 +71,13 @@ input {
   margin: 0 auto;
   margin-top: 3.3rem;
   max-width: 757px;
-  background: #0c151d;
+  background: #e9ebec;
   transition: 1s all ease-in-out;
 }
 
 /* .container-content {
-  width: 100%;
-} */
+    width: 100%;
+  } */
 
 /*? theme icon */
 
@@ -89,12 +89,12 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #171f26;
+  background-color: #e7e7e7;
   cursor: pointer;
 }
 
 .theme-icon:hover {
-  background-color: #f1f2f4;
+  background-color: #3d3d3d;
   transition: all 0.5s;
 }
 
@@ -129,7 +129,7 @@ input {
 .info-name {
   font-weight: 500;
   font-size: 4.6rem;
-  color: #f1f2f4;
+  color: #3d3d3d;
 }
 
 .info-job {
@@ -137,7 +137,7 @@ input {
   font-size: 2.2rem;
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
-  color: #a3abb2;
+  color: #3d3d3d;
 }
 
 .info-sosial {
@@ -155,7 +155,7 @@ input {
 }
 
 .info-sosial i {
-  color: #a3abb2;
+  color: #3d3d3d;
   font-size: 3rem;
 }
 
@@ -176,8 +176,8 @@ input {
 .cv {
   font-weight: 500;
   font-size: 2.2rem;
-  color: #a3abb2;
-  background-color: #171f26;
+  color: #3d3d3d;
+  background-color: #ffffff;
   margin-right: 4rem;
   padding: 2.4rem 8.1rem;
   border-radius: 1rem;
@@ -193,8 +193,8 @@ input {
 .contact {
   font-weight: 500;
   font-size: 2.2rem;
-  color: #a3abb2;
-  background-color: #171f26;
+  color: #3d3d3d;
+  background-color: #ffffff;
   padding: 2.4rem 8.1rem;
   border-radius: 1rem;
 }
@@ -212,16 +212,16 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #171f26;
+  background-color: #ffffff;
   border-radius: 2rem;
 }
 
 .portfolio {
   font-weight: 500;
   font-size: 2.2rem;
-  color: #a3abb2;
+  color: #19191b;
   margin-right: 4rem;
-  background-color: #171f26;
+  background-color: #ffffff;
   padding: 2.4rem 12.5rem;
   border-radius: 1rem;
   margin: 1.8rem auto;
@@ -231,8 +231,8 @@ input {
 .skills {
   font-weight: 500;
   font-size: 2.2rem;
-  color: #a3abb2;
-  background-color: #171f26;
+  color: #19191b;
+  background-color: #ffffff;
   padding: 2.4rem 12.5rem;
   border-radius: 1rem;
   margin: 1.8rem auto;
@@ -240,53 +240,61 @@ input {
 }
 
 .active {
-  background-color: #0c151d;
+  background-color: #d7d7d7;
+  transition: all 0.5s;
 }
 
 /* @projects */
 
 .projects {
-  margin-top: 8.5rem;
+  margin-top: 5rem;
   width: 100%;
+  height: 100%;
 }
 
 .projects .project {
-  width: 362px;
-  height: 226px;
+  width: 50%;
+  height: 100%;
   border-radius: 1.5rem;
+}
+
+.project a {
+  width: 100%;
+  height: 100%;
 }
 
 .project img {
   width: 100%;
   height: 100%;
+  border-radius: 1.5rem;
 }
 
-/* .project {
+.project {
   position: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .project:before {
-  content: "my project";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #0c151d;
-  font-size: 4rem;
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-  background-color: #ffe071;
   border-radius: 1.5rem;
-  opacity: 0;
+  background-color: #ffe071;
   cursor: pointer;
   transition: all 0.5s;
+  opacity: 0;
 }
 
 .project:hover::before {
   opacity: 0.5;
-} */
+}
 
 .projects-first,
 .projects-second,
@@ -300,12 +308,96 @@ input {
   margin-right: 0;
 }
 
+/* @my-skills */
+
+.my-skills {
+  margin-top: 5rem;
+  width: 100%;
+  padding: 5rem;
+  display: none;
+}
+
+.my-skills .language {
+  font-size: 4.5rem;
+  margin-bottom: 7rem;
+}
+
+.my-skills .language #html {
+  color: rgb(189, 81, 42);
+}
+
+.my-skills .language #css {
+  color: rgb(70, 122, 190);
+}
+
+.my-skills .language #js {
+  color: rgb(170, 170, 81);
+}
+
+.my-skills .language i:hover {
+  color: rgb(182, 38, 38)!important;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.my-skills .language-skills h4 {
+  color: #19191b;
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.my-skills .language-skills {
+  margin: 0 4rem;
+}
+
+.lg-margin {
+  margin-bottom: 2rem;
+}
+
+.meter {
+  position: relative;
+  width: 100%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  background-color: #e7e7e7;
+  /* outline: 0.2rem solid #a3abb2; */
+  /* border-right: 1px solid #19191b; */
+}
+
+#meter-html::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background-color: #2bcf6a;
+}
+#meter-css::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  background-color: #bce44f;
+}
+#meter-js::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background-color: #e2b053;
+}
+
 /* @footer */
 
 footer {
   font-weight: 500;
   font-size: 2.2rem;
-  color: #a3abb2;
+  color: #575757;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -345,11 +437,11 @@ footer {
   /* @project */
 
   /* .projects-first,
-  .projects-second,
-  .projects-third {
-    flex-direction: column;
-    margin-bottom: 0;
-  } */
+    .projects-second,
+    .projects-third {
+      flex-direction: column;
+      margin-bottom: 0;
+    } */
 
   .projects .project {
     width: 100%;
@@ -369,9 +461,9 @@ footer {
     font-size: 4px;
   }
   /* .projects-first,
-  .projects-second,
-  .projects-third {
-    flex-direction: column;
-    
-  } */
+    .projects-second,
+    .projects-third {
+      flex-direction: column;
+      
+    } */
 }
