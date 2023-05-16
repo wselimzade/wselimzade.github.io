@@ -13,6 +13,7 @@ const changeTheme = () => {
 themeButton.addEventListener("click", changeTheme);
 themeButton.addEventListener("touchstart", changeTheme);
 
+/*
 // download cv
 const cv = document.querySelector(".cv");
 const downloadCV = () => {
@@ -25,6 +26,7 @@ const downloadCV = () => {
 };
 cv.addEventListener("click", downloadCV);
 cv.addEventListener("touchstart", downloadCV);
+*/
 
 // contact to me
 const contact = document.querySelector(".contact");
