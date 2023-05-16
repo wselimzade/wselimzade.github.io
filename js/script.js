@@ -13,21 +13,6 @@ const changeTheme = () => {
 themeButton.addEventListener("click", changeTheme);
 themeButton.addEventListener("touchstart", changeTheme);
 
-/*
-// download cv
-const cv = document.querySelector(".cv");
-const downloadCV = () => {
-  const fileUrl = "./cv/MyCV.pdf";
-  const fileName = "MyCV.pdf";
-  const link = document.createElement("a");
-  link.href = fileUrl;
-  link.download = fileName;
-  link.click();
-};
-cv.addEventListener("click", downloadCV);
-cv.addEventListener("touchstart", downloadCV);
-*/
-
 // contact to me
 const contact = document.querySelector(".contact");
 const sendMail = () => {
@@ -64,6 +49,6 @@ portfolio.addEventListener("click", openProjects);
 // catchGame link
 const catchGame = document.querySelector("#catchGame");
 const catchGameLink = () => {
-  window.location.href = 'https://wselimzade.github.io/catchGame/'
-}
-catchGame.addEventListener("click", catchGameLink)
+  window.location.href = "https://wselimzade.github.io/catchGame/";
+};
+catchGame.addEventListener("click", catchGameLink);
