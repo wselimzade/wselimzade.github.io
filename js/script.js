@@ -58,3 +58,10 @@ const openProjects = () => {
 };
 skills.addEventListener("click", openSkills);
 portfolio.addEventListener("click", openProjects);
+
+// catchGame link
+const catchGame = document.querySelector("#catchGame");
+const catchGameLink = () => {
+  window.location.href = 'https://wselimzade.github.io/catchGame/'
+}
+catchGame.addEventListener("click", catchGameLink)
