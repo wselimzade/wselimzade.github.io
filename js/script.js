@@ -49,13 +49,13 @@ portfolio.addEventListener("click", openProjects);
 // catchGame link
 const catchGame = document.querySelector("#catchGame");
 const catchGameLink = () => {
-  window.location.href = "https://wselimzade.github.io/catchGame/";
+  window.open("https://wselimzade.github.io/catchGame/", "_blank");
 };
 catchGame.addEventListener("click", catchGameLink);
 
 // firstWebsiteProject link
-const firstWebSite = document.querySelector("#catchGame");
+const firstWebSite = document.querySelector("#firstWebsiteProject");
 const firstWebSiteLink = () => {
-  window.location.href = "https://wselimzade.github.io/first-website-project/";
+  window.open("https://wselimzade.github.io/first-website-project/", "_blank");
 };
 firstWebSite.addEventListener("click", firstWebSiteLink);
