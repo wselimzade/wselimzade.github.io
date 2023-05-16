@@ -52,3 +52,10 @@ const catchGameLink = () => {
   window.location.href = "https://wselimzade.github.io/catchGame/";
 };
 catchGame.addEventListener("click", catchGameLink);
+
+// firstWebsiteProject link
+const firstWebSite = document.querySelector("#catchGame");
+const firstWebSiteLink = () => {
+  window.location.href = "https://wselimzade.github.io/first-website-project/";
+};
+firstWebSite.addEventListener("click", catchGameLink);
