@@ -501,6 +501,10 @@ footer {
   #firstWebsiteProject:before {
     font-size: 20px;
   }
+  
+  #calculator:before {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 390px) {
