@@ -114,6 +114,14 @@ input {
   width: 25rem;
   height: 20rem;
   box-shadow: 0px 0px 18px 8px #333d46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo i {
+  color: #19191b;
+  font-size: 13rem;
 }
 
 .info {
