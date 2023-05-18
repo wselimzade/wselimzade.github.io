@@ -299,7 +299,7 @@ input {
 }
 
 .project:hover::before {
-  opacity: 0.5;
+  opacity: 0.85;
 }
 
 #catchGame:before {
