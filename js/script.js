@@ -61,8 +61,8 @@ const firstWebSiteLink = () => {
 firstWebSite.addEventListener("click", firstWebSiteLink);
 
 // calculator link
-const calculator = document.querySelector("#firstWebsiteProject");
+const calculator = document.querySelector("#calculator");
 const calculatorLink = () => {
   window.open("https://wselimzade.github.io/calculator/", "_blank");
 };
-firstWebSite.addEventListener("click", calculatorLink);
+calculator.addEventListener("click", calculatorLink);
