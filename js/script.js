@@ -59,3 +59,10 @@ const firstWebSiteLink = () => {
   window.open("https://wselimzade.github.io/first-website-project/", "_blank");
 };
 firstWebSite.addEventListener("click", firstWebSiteLink);
+
+// calculator link
+const calculator = document.querySelector("#firstWebsiteProject");
+const calculatorLink = () => {
+  window.open("https://wselimzade.github.io/calculator/", "_blank");
+};
+firstWebSite.addEventListener("click", calculatorLink);
