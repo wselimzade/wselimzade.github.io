@@ -355,24 +355,17 @@ input {
 .my-skills .language {
   font-size: 4.5rem;
   margin-bottom: 7rem;
+  display: flex;
+  align-items: center;
 }
 
-.my-skills .language #html {
-  color: rgb(189, 81, 42);
+.my-skills .language img {
+  width: 5rem;
+  height: 5rem;
 }
 
-.my-skills .language #css {
-  color: rgb(70, 122, 190);
-}
-
-.my-skills .language #js {
-  color: rgb(170, 170, 81);
-}
-
-.my-skills .language i:hover {
-  color: rgb(182, 38, 38) !important;
-  transition: all 0.5s;
-  cursor: pointer;
+#json {
+  height: 4rem;
 }
 
 .my-skills .language-skills h4 {
@@ -425,6 +418,16 @@ input {
   width: 60%;
   height: 100%;
   background-color: #e2b053;
+}
+
+#meter-json:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
+  background-color: #17d460;
 }
 
 /* @footer */
