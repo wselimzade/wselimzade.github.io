@@ -1,7 +1,7 @@
 "use strict";
 
 // change theme dark & night
-const themeButton = document.querySelector(".theme-icon");
+const themeButton = document.querySelector(".theme");
 const link = document.querySelector("link[href='css/style.css']");
 const changeTheme = () => {
   if (link.getAttribute("href") == "css/style.css") {
@@ -11,7 +11,6 @@ const changeTheme = () => {
   }
 };
 themeButton.addEventListener("click", changeTheme);
-themeButton.addEventListener("touchstart", changeTheme);
 
 // contact to me
 const contact = document.querySelector(".contact");
@@ -24,7 +23,6 @@ const sendMail = () => {
   window.location.href = `mailto:${emailAddress}?subject=${encodedSubject}&body=${encodedBody}`;
 };
 contact.addEventListener("click", sendMail);
-contact.addEventListener("touchstart", sendMail);
 
 // change portfolio and skills section
 const skills = document.querySelector(".skills");
@@ -66,3 +64,10 @@ const calculatorLink = () => {
   window.open("https://wselimzade.github.io/calculator/", "_blank");
 };
 calculator.addEventListener("click", calculatorLink);
+
+// WeatherApp link
+const weatherApp = document.querySelector("#WeatherApp");
+const weatherAppLink = () => {
+  window.open("https://wselimzade.github.io/WeatherApp/", "_blank");
+};
+weatherApp.addEventListener("click", weatherAppLink);

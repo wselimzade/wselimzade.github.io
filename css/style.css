@@ -121,7 +121,7 @@ input {
 
 .photo i {
   color: #a3abb2;
-  font-size: 13rem;
+  font-size: 7rem;
 }
 
 .info {
@@ -330,6 +330,13 @@ input {
   color: #0c151d;
 }
 
+#WeatherApp:before {
+  content: "WeatherApp";
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0c151d;
+}
+
 .projects-first,
 .projects-second,
 .projects-third {
@@ -399,27 +406,27 @@ input {
   content: "";
   top: 0;
   left: 0;
-  width: 90%;
+  width: 91%;
   height: 100%;
-  background-color: #2bcf6a;
+  background-color: #E65100;
 }
 #meter-css::before {
   position: absolute;
   content: "";
   top: 0;
   left: 0;
-  width: 80%;
+  width: 81%;
   height: 100%;
-  background-color: #bce44f;
+  background-color: #0277BD;
 }
 #meter-js::before {
   position: absolute;
   content: "";
   top: 0;
   left: 0;
-  width: 60%;
+  width: 71%;
   height: 100%;
-  background-color: #e2b053;
+  background-color: #FFD600;
 }
 
 #meter-json:before {
@@ -429,7 +436,7 @@ input {
   left: 0;
   width: 95%;
   height: 100%;
-  background-color: #17d460;
+  background-color: #C46A03;
 }
 
 /* @footer */
@@ -508,6 +515,10 @@ footer {
   }
   
   #calculator:before {
+    font-size: 20px;
+  }
+  
+  #WeatherApp:before {
     font-size: 20px;
   }
 }
