@@ -375,8 +375,6 @@ input {
   height: 4rem;
 }
 
-
-
 .my-skills .language-skills h4 {
   color: #f1f2f4;
   font-size: 2.4rem;
@@ -401,44 +399,15 @@ input {
   /* border-right: 1px solid white; */
 }
 
-#meter-html::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 91%;
-  height: 100%;
-  background-color: #E65100;
-}
-#meter-css::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 81%;
-  height: 100%;
-  background-color: #0277BD;
-}
 #meter-js::before {
   position: absolute;
   content: "";
   top: 0;
   left: 0;
-  width: 71%;
+  width: 75%;
   height: 100%;
-  background-color: #FFD600;
+  background-color: #ffd600;
 }
-
-#meter-json:before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 95%;
-  height: 100%;
-  background-color: #C46A03;
-}
-
 #meter-react:before {
   position: absolute;
   content: "";
@@ -446,7 +415,34 @@ input {
   left: 0;
   width: 20%;
   height: 100%;
-  background-color: #61DAFB;
+  background-color: #61dafb;
+}
+#meter-html::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
+  background-color: #e65100;
+}
+#meter-css::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 100%;
+  background-color: #0277bd;
+}
+#meter-json:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background-color: #c46a03;
 }
 
 /* @footer */
@@ -523,11 +519,11 @@ footer {
   #firstWebsiteProject:before {
     font-size: 20px;
   }
-  
+
   #calculator:before {
     font-size: 20px;
   }
-  
+
   #WeatherApp:before {
     font-size: 20px;
   }
