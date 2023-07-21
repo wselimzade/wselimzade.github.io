@@ -3,11 +3,13 @@
 // change theme dark & night
 const themeButton = document.querySelector(".theme");
 const link = document.querySelector("link[href='css/style.css']");
+const nightLink = "css/style.css";
+const lightLink = "css/night-mode.css";
 const changeTheme = () => {
-  if (link.getAttribute("href") == "css/style.css") {
-    link.setAttribute("href", "css/night-mode.css");
+  if (link.getAttribute("href") == nightLink) {
+    link.setAttribute("href", lightLink);
   } else {
-    link.setAttribute("href", "css/style.css");
+    link.setAttribute("href", nightLink);
   }
 };
 themeButton.addEventListener("click", changeTheme);

@@ -367,14 +367,13 @@ input {
 }
 
 .my-skills .language img {
-  /* width: 5rem; */
-  /* height: 5rem; */
+  width: 5rem; 
+   height: 5rem;
 }
 
 #json {
   margin-left: 0.7rem;
   width: 4rem;
-  /* margin-right: 1rem; */
 }
 
 #json, #react {
@@ -383,7 +382,7 @@ input {
 
 #react { width: 4rem;}
 
-#bootstrap { width: 4.7rem ;}
+#bootstrap { height: 4rem; }
 
 .my-skills .language-skills h4 {
   color: #19191b;
