@@ -437,6 +437,16 @@ input {
   background-color: #C46A03;
 }
 
+#meter-react:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  background-color: #61DAFB;
+}
+
 /* @footer */
 
 footer {
