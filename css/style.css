@@ -367,13 +367,23 @@ input {
 }
 
 .my-skills .language img {
-  width: 5rem;
-  height: 5rem;
+  /* width: 5rem; */
+  /* height: 5rem; */
 }
 
 #json {
+  margin-left: 0.7rem;
+  width: 4rem;
+  /* margin-right: 1rem; */
+}
+
+#json, #react {
   height: 4rem;
 }
+
+#react { width: 4rem;}
+
+#bootstrap { width: 4.7rem ;}
 
 .my-skills .language-skills h4 {
   color: #f1f2f4;
@@ -385,9 +395,7 @@ input {
   margin: 0 4rem;
 }
 
-.lg-margin {
-  margin-bottom: 2rem;
-}
+.lg-bottom-margin { margin-bottom: 2rem; }
 
 .meter {
   position: relative;
@@ -434,6 +442,15 @@ input {
   width: 85%;
   height: 100%;
   background-color: #0277bd;
+}
+#meter-bootstrap::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: #8212FA;
 }
 #meter-json:before {
   position: absolute;
