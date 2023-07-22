@@ -433,7 +433,7 @@ input {
   left: 0;
   width: 90%;
   height: 100%;
-  background-color: #c46a03;
+  background-color: #525252;
 }
 #meter-html::before {
   position: absolute;
