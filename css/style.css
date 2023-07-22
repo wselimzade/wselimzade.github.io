@@ -384,6 +384,8 @@ input {
 
 #bootstrap { height: 4rem; }
 
+#react-bootstrap { height: 4rem; margin-left: 0.7rem;}
+
 .my-skills .language-skills h4 {
   color: #f1f2f4;
   font-size: 2.4rem;
@@ -424,6 +426,15 @@ input {
   height: 100%;
   background-color: #61dafb;
 }
+#meter-json:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background-color: #c46a03;
+}
 #meter-html::before {
   position: absolute;
   content: "";
@@ -451,15 +462,16 @@ input {
   height: 100%;
   background-color: #8212FA;
 }
-#meter-json:before {
+#meter-react-bootstrap::before {
   position: absolute;
   content: "";
   top: 0;
   left: 0;
-  width: 90%;
+  width: 70%;
   height: 100%;
-  background-color: #c46a03;
+  background-color: #41E0FD;
 }
+
 
 /* @footer */
 
