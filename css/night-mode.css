@@ -386,6 +386,8 @@ input {
 
 #react-bootstrap { height: 4rem; margin-left: 0.7rem;}
 
+#tailwind { margin-left: 1rem;}
+
 .my-skills .language-skills h4 {
   color: #19191b;
   font-size: 2.4rem;
@@ -471,7 +473,15 @@ input {
   height: 100%;
   background-color: #41E0FD;
 }
-
+#meter-tailwind::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background-color: #38BDF8;
+}
 
 
 /* @footer */

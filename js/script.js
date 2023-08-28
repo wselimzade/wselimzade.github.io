@@ -2,7 +2,7 @@
 
 // change theme dark & night
 const themeButton = document.querySelector(".theme");
-const link = document.querySelector("link[href='css/style.css']");
+const link = document.querySelector("link[href='css/night-mode.css']");
 const nightLink = "css/style.css";
 const lightLink = "css/night-mode.css";
 const changeTheme = () => {
