@@ -73,3 +73,10 @@ const weatherAppLink = () => {
   window.open("https://wselimzade.github.io/WeatherApp/", "_blank");
 };
 weatherApp.addEventListener("click", weatherAppLink);
+
+// myTasks link
+const myTasks = document.querySelector('#myTasks');
+const myTasksLink = () => {
+  window.open("https://wselimzade.github.io/myTasks/", "_blank");
+};
+myTasks.addEventListener("click", myTasksLink)
