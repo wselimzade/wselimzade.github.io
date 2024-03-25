@@ -17,7 +17,7 @@ themeButton.addEventListener("click", changeTheme);
 // contact to me
 const contact = document.querySelector(".contact");
 const sendMail = () => {
-  const emailAddress = "wselimzade@mail.ru";
+  const emailAddress = "i_selimzade@mail.ru";
   const emailSubject = "Portfolio Mail";
   const emailBody = "Replace this text with the desired email body content";
   const encodedSubject = encodeURIComponent(emailSubject);

@@ -378,22 +378,23 @@ input {
    height: 5rem;
 }
 
-#json {
-  margin-left: 0.7rem;
+#fundamentals-header, #tech-header {
+  font-size: 2rem;
+}
+
+#fundamentals, #tech {
+  font-size: 1.5rem;
+}
+
+#cplusplus, #csharp {
+  height: 4rem;
   width: 4rem;
 }
 
-#json, #react {
+#react {
   height: 4rem;
+  width: 4rem;
 }
-
-#react { width: 4rem;}
-
-#bootstrap { height: 4rem; }
-
-#react-bootstrap { height: 4rem; margin-left: 0.7rem;}
-
-#tailwind { margin-left: 1rem;}
 
 .my-skills .language-skills h4 {
   color: #19191b;
