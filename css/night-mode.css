@@ -126,6 +126,10 @@ input {
 
 .info {
   margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .info-name {
@@ -528,10 +532,6 @@ footer {
   .info {
     margin-left: 0;
     margin-top: 4rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 }
 
